@@ -105,7 +105,7 @@ class BalancesUpdater {
     }
 
     setCurrentBlock(next) {
-        return this.rpcRepository.getInfo((err, block) => {
+        return this.rpcRepository.getBlockChainInfo((err, block) => {
 
             if (err) {
                 return next(err);
