@@ -1,4 +1,4 @@
-const RPC = require('tripid-rpc');
+const RPC = require('cicod-rpc');
 const config = require('../../config/main.json');
 
 class RpcRepository {

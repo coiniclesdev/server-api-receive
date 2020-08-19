@@ -1,4 +1,4 @@
-const bitcore = require('tripicore-lib');
+const bitcore = require('cicocore-lib');
 const Transaction = bitcore.Transaction;
 const config = require('../../config/main.json');
 
